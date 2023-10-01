@@ -32,12 +32,13 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: 
+  * Python (Machine Learning and Deep Learning), Matlab, C++, Verilog HDL, CNC
+* Technologies: 
+  * PCB Design, Cadence, LTspice, Embedded Programming, 3D Printing, CST, Solidworks
+* Languages: 
+  * Chinese (Native), English (Frequent), German (Frequent, Certificated with Test DaF 4×4 and DSH 2)
+
 
 Publications
 ======
