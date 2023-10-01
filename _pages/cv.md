@@ -11,17 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. in NUAA, 2016
-* M.S. in Technische Universität Braunschweig 2021
+* B.S. in Nanjing University of Aeronautics and Astronautics, China, 2016
+* M.S. in Technische Universität Braunschweig, Germany, 2021
 
 [//]: # (* Ph.D in Version Control Theory, GitHub University, 2018 &#40;expected&#41;)
 
 Work experience
 ======
 * 2021-Present: Research Assistant
-  * Chinese Academy of Sciences
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
+  * Continuum Surgical Robotic
+  * Robotic Bronchoscopy System
+  * Vascular Interventional Robot
+ 
 
 * Fall 2015: Research Assistant
   * Github University
