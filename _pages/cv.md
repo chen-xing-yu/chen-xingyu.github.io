@@ -12,8 +12,9 @@ redirect_from:
 Education
 ======
 * B.S. in NUAA, 2016
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Technische Universität Braunschweig 2021
+
+[//]: # (* Ph.D in Version Control Theory, GitHub University, 2018 &#40;expected&#41;)
 
 Work experience
 ======
