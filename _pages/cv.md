@@ -18,18 +18,27 @@ Education
 
 Work experience
 ======
-* 2021-Present: Research Assistant
-  * Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
-  * Continuum Surgical Robotic
-  * Robotic Bronchoscopy System
-  * Vascular Interventional Robot
- 
+* 2021-Present: Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Research Assistant
+  * Designed and built two flexible surgical robots as a team leader, a Robotic Bronchoscopy System and
+  Machine Learning based Vascular Interventional Surgical Robot, responsible for all navigation, control
+  and electrical parts, and conducted several animal experiments.
+  * Designed multimodal information robotic bronchoscopy navigation system which integrates electromagnetic
+  sensors, G-arm X-ray fluoroscopy and bronchoscopic video.
+  * Designed a novel teleoperated robotic bronchoscopy system for peripheral lung biopsy, featuring variable stiffness
+  catheter and shared control strategy for peripheral pulmonary lesion biopsy.
+  * Designed an isomorphic master-slave surgical robot for vascular interventions, with precise force measurement and
+  navigation of endovascular tools, viz. catheters and guidewires.
+  * Customized guidewire force feedback solutions for a vascular interventional robot company.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2020-2021: Esaote, Intern
+  * Embedded system developer of an ultrasound imaging system, participated in the ultrasound scanner system
+design, drew PCB, and programmed the drivers for an ARM-Cortex M4 based MCU
+  * Investigated and eliminated the sources of noise and signal crosstalk in the ultrasound imaging system.b
+
+* Sep 2019-Aug 2020: Technische Universit¨at Braunschweig, HiWi(Student Research Assistant)
+  * Developed a magnetic particle imaging control system using the RedPitaya and an FPGA on Linux, which included
+a signal generator, a spectrum analyzer, and a control system.
+
 Skills
 ======
 * Programming: 
