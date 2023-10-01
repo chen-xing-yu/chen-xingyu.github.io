@@ -18,8 +18,8 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* 2021-Present: Research Assistant
+  * Chinese Academy of Sciences
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
