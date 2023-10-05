@@ -13,16 +13,7 @@ I am Xing-Yu Chen, a electrical engineer dedicated in medical devices. My resear
 I'm working as RA in [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](https://english.siat.ac.cn/).  
 Let's make the biomedical community better :)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer
-and then push them to GitHub's servers. If you are not directlyfamiliar with git, 
-you can  edit these configuration and markdown files directly in the github.com interface. 
-Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-Example: fotos
+Example of my work: Robotic Bronchoscopy System
 ![fotos](/images/robot.jpg)
 
