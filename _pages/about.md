@@ -15,5 +15,5 @@ Let's make the biomedical community better :)
 
 
 Example of my work: Robotic Bronchoscopy System
-![fotos](/images/robot.jpg)
+![fotos](./images/robot.jpg =100x100)
 
