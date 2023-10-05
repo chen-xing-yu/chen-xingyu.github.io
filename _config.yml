@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "main page"
 title_separator          : "-"
-name                     : &name "Xing-Yu Chen 陈星宇"
+name                     : &name "Xing-Yu Chen"
 description              : &description "personal description"
 url                      : https://chen-xing-yu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xing-Yu Chen "
+  name             : "Xing-Yu Chen 陈星宇 "
   avatar           : "CP4_5272.jpg"
   bio              : "Dedicated in medical devices"
   location         : "Shenzhen, China"
