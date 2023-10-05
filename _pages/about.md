@@ -17,3 +17,6 @@ Let's make the biomedical community better :)
 Example of my work: Robotic Bronchoscopy System
 ![fotos](./images/robot.jpg =100x100)
 
+<div  align="center">    
+ <img src="./images/robot.jpg" width = "300" height = "200" alt="图片名称" align=center />
+</div>
