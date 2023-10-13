@@ -10,12 +10,23 @@ anatomical pathways through single-port access, e.g. natural orifice translumina
 conventional manipulators composed of discrete rigid links connected by joints. Their
 ability to take the shape of 3D curves enables these robots to perform procedures
 through smaller surgical corridors than would be possible with traditional robotic
-mechanisms.
-During the work in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, I lead a small group of students and design two continuum robot, a vascular interventional surgical robot and a robotic bronchoscopy system.
+mechanisms. During the work in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, I lead a small group of students and design two continuum robot, a vascular interventional surgical robot and a robotic bronchoscopy system.
 
 
 Robotic Bronchoscopy System
 ======
+Related Pubulication: 
+
+\textbf{Chen, Xing-Yu}, et al. \href{https://doi.org/10.13140/RG.2.2.24714.64963}{\textit{Design of a Teleoperated Robotic Bronchoscopy System for Peripheral Pulmonary Lesion Biopsy.}}  \textit{arXiv preprint arXiv:2306.09598}(2023).
+
+
+CN Patent: \emph{\href{https://www.researchgate.net/publication/370801235_CN_Patent_yizhonggangdulianxukediaoqiaoguanjiqigangdudiaojiefangfaheshoushushebei}{A sheath with continuously adjustable stiffness, its stiffness adjustment method, and surgical equipment.}} CN115920200A.
+
+CN Patent: \emph{\href{https://www.researchgate.net/publication/370801423_CN_Patent_yizhonghuojianqianshounayudisongzhuangzhiyijizhiqiguanjingshoushujiqiren}{Biopsy Forceps Storage and Delivery Device for Bronchoscope Surgical Robots.}} CN115429343A.
+
+CN Patent: \emph{\href{https://www.researchgate.net/publication/370801247_CN_Patent_yizhongjinghuxidaozhenliaojiqirenxitongjiqikongzhifangfa}{A Respiratory Diagnosis and Treatment Robot System and its Control Method.}} PCT/CN115252146.
+
+CN Patent: \emph{\href{https://www.researchgate.net/publication/372234328_CN_Patent_yizhongzhiqiguanjingmozujiqihuojianfangfahecaiyongqideshoushujiqiren}{A bronchoscope module and its biopsy method.}}  CN116369834A.
 
 I am currently tasked with designing an innovative teleoperated robotic bronchoscopy system and multi-modal navigation through image and electromagnetic sensors. During the procedure, the surgeon holds a tablet console to control a flexible visual bronchoscope, inserts a flexible tube into the patient's mouth, and utilizes the robot for advancements, rotations, and adjustment of the bending angle of the front end of the flexible bronchoscope. The robot also enables control of the biopsy forceps for feeding and tissue sampling. 
 
