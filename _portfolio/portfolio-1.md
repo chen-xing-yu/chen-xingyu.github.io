@@ -17,12 +17,11 @@ Robotic Bronchoscopy System
 ======
 Related Pubulication: 
 
-\textbf{Chen, Xing-Yu}, et al. \href{https://doi.org/10.13140/RG.2.2.24714.64963}{\textit{Design of a Teleoperated Robotic Bronchoscopy System for Peripheral Pulmonary Lesion Biopsy.}}  \textit{arXiv preprint arXiv:2306.09598}(2023).
+Chen, Xing-Yu, et al. Design of a Teleoperated Robotic Bronchoscopy System for Peripheral Pulmonary Lesion Biopsy. [arXiv preprint arXiv:2306.09598(2023)](https://doi.org/10.13140/RG.2.2.24714.64963).
 
+CN Patent: A sheath with continuously adjustable stiffness, its stiffness adjustment method, and surgical equipment. [CN115920200A](https://www.researchgate.net/publication/370801235_CN_Patent_yizhonggangdulianxukediaoqiaoguanjiqigangdudiaojiefangfaheshoushushebei)
 
-CN Patent: \emph{\href{https://www.researchgate.net/publication/370801235_CN_Patent_yizhonggangdulianxukediaoqiaoguanjiqigangdudiaojiefangfaheshoushushebei}{A sheath with continuously adjustable stiffness, its stiffness adjustment method, and surgical equipment.}} CN115920200A.
-
-CN Patent: \emph{\href{https://www.researchgate.net/publication/370801423_CN_Patent_yizhonghuojianqianshounayudisongzhuangzhiyijizhiqiguanjingshoushujiqiren}{Biopsy Forceps Storage and Delivery Device for Bronchoscope Surgical Robots.}} CN115429343A.
+CN Patent: Biopsy Forceps Storage and Delivery Device for Bronchoscope Surgical Robots. [CN115429343A](https://www.researchgate.net/publication/370801423_CN_Patent_yizhonghuojianqianshounayudisongzhuangzhiyijizhiqiguanjingshoushujiqiren)
 
 CN Patent: \emph{\href{https://www.researchgate.net/publication/370801247_CN_Patent_yizhongjinghuxidaozhenliaojiqirenxitongjiqikongzhifangfa}{A Respiratory Diagnosis and Treatment Robot System and its Control Method.}} PCT/CN115252146.
 
