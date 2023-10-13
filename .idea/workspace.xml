@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44c6c84d-3cc7-4fed-bd79-43c71b85eb57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/architecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/experiment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/navigation_procedure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/the_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_portfolio/VISR.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/portfolio-1.md" afterDir="false" />
     </list>

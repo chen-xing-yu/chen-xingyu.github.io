@@ -1,5 +1,5 @@
 ---
-title: "Continuum Surgical Robot"
+title: "Vascular Interventional Surgical Robot"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/structure.pdf'>"
 collection: portfolio   
 ---
