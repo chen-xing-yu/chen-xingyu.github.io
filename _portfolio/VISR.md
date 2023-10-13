@@ -13,19 +13,30 @@ through smaller surgical corridors than would be possible with traditional robot
 mechanisms. During the work in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, I lead a small group of students and design two continuum robot, a vascular interventional surgical robot and a robotic bronchoscopy system.
 
 
-Robotic Bronchoscopy System
+Vascular Interventional Surgical Robot
 ======
 Related Pubulication: 
 
-Chen, Xing-Yu, et al. Design of a Teleoperated Robotic Bronchoscopy System for Peripheral Pulmonary Lesion Biopsy. [arXiv preprint arXiv:2306.09598(2023)](https://doi.org/10.13140/RG.2.2.24714.64963).
+Chen, Xing-Yu, et al. Design and Evaluation of a Learning-based Vascular Interventional Surgery Robot. [Fibers, 10.12 (2022): 106](https://doi.org/10.3390/fib10120106)
 
-CN Patent: A sheath with continuously adjustable stiffness, its stiffness adjustment method, and surgical equipment. [CN115920200A](https://www.researchgate.net/publication/370801235_CN_Patent_yizhonggangdulianxukediaoqiaoguanjiqigangdudiaojiefangfaheshoushushebei)
+Akinyemi, T.O., et al.   \emph{\href{https://doi.org/10.3390/app122110936}{ Adapting Neural-Based Models for Position Error Compensation in Robotic Catheter Systems.}} \textit {Applied Sciences}, 12.21 (2022): 10936.
 
-CN Patent: Biopsy Forceps Storage and Delivery Device for Bronchoscope Surgical Robots. [CN115429343A](https://www.researchgate.net/publication/370801423_CN_Patent_yizhonghuojianqianshounayudisongzhuangzhiyijizhiqiguanjingshoushujiqiren)
+Akinyemi, T.O., et al.   \emph{\href{https://doi.org/10.1109/JSEN.2023.3281009}{Interventionalist Hand Motion Recognition with Convolutional Neural Network in Robot-assisted Coronary Interventions.}} \textit{IEEE Sensors Journal}.
 
-CN Patent: A Respiratory Diagnosis and Treatment Robot System and its Control Method. [PCT/CN115252146](https://www.researchgate.net/publication/370801247_CN_Patent_yizhongjinghuxidaozhenliaojiqirenxitongjiqikongzhifangfa)
+Duan, Wenke, et al. \emph{\href{https://doi.org/10.3390/mi14010197}{Technical and Clinical Progress on Robot-Assisted Endovascular Interventions: A Review.}} \textit{Micromachines}, 14.1 (2023): 197.
 
-CN Patent: A bronchoscope module and its biopsy method. [CN116369834A](https://www.researchgate.net/publication/372234328_CN_Patent_yizhongzhiqiguanjingmozujiqihuojianfangfahecaiyongqideshoushujiqiren)
+CN Patent: \emph{\href{https://www.researchgate.net/publication/370801433_CN_Patent_yizhongshoushujiqirendezhuduanliganzhifankuicaozongzhuangzhijifangfa}{A Tactile-Feedback Device and Method for Surgical Robots.}} CN115137483A.
+
+
+CN Patent: \emph{\href{https://www.researchgate.net/publication/370801270_CN_Patent_yizhongshuangxiangdianchushijierujiqirencongduandaosilijiancezhuangzhijifangfa}{ A Bidirectional Guidewire Force Measurement Method for Vascular Interventional Surgical Robot.}} CN114948258A.
+
+
+
+
+
+
+
+
 
 I am currently tasked with designing an innovative teleoperated robotic bronchoscopy system and multi-modal navigation through image and electromagnetic sensors. During the procedure, the surgeon holds a tablet console to control a flexible visual bronchoscope, inserts a flexible tube into the patient's mouth, and utilizes the robot for advancements, rotations, and adjustment of the bending angle of the front end of the flexible bronchoscope. The robot also enables control of the biopsy forceps for feeding and tissue sampling. 
 <br/><img src='/images/R_B_System.png'>
