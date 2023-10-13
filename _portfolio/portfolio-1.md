@@ -15,17 +15,6 @@ mechanisms. During the work in Shenzhen Institute of Advanced Technology, Chines
 
 Robotic Bronchoscopy System
 ======
-Related Pubulication: 
-
-Chen, Xing-Yu, et al. Design of a Teleoperated Robotic Bronchoscopy System for Peripheral Pulmonary Lesion Biopsy. [arXiv preprint arXiv:2306.09598(2023)](https://doi.org/10.13140/RG.2.2.24714.64963).
-
-CN Patent: A sheath with continuously adjustable stiffness, its stiffness adjustment method, and surgical equipment. [CN115920200A](https://www.researchgate.net/publication/370801235_CN_Patent_yizhonggangdulianxukediaoqiaoguanjiqigangdudiaojiefangfaheshoushushebei)
-
-CN Patent: Biopsy Forceps Storage and Delivery Device for Bronchoscope Surgical Robots. [CN115429343A](https://www.researchgate.net/publication/370801423_CN_Patent_yizhonghuojianqianshounayudisongzhuangzhiyijizhiqiguanjingshoushujiqiren)
-
-CN Patent: A Respiratory Diagnosis and Treatment Robot System and its Control Method. [PCT/CN115252146](https://www.researchgate.net/publication/370801247_CN_Patent_yizhongjinghuxidaozhenliaojiqirenxitongjiqikongzhifangfa)
-
-CN Patent: A bronchoscope module and its biopsy method. [CN116369834A](https://www.researchgate.net/publication/372234328_CN_Patent_yizhongzhiqiguanjingmozujiqihuojianfangfahecaiyongqideshoushujiqiren)
 
 I am currently tasked with designing an innovative teleoperated robotic bronchoscopy system and multi-modal navigation through image and electromagnetic sensors. During the procedure, the surgeon holds a tablet console to control a flexible visual bronchoscope, inserts a flexible tube into the patient's mouth, and utilizes the robot for advancements, rotations, and adjustment of the bending angle of the front end of the flexible bronchoscope. The robot also enables control of the biopsy forceps for feeding and tissue sampling. 
 <br/><img src='/images/R_B_System.png'>
@@ -57,8 +46,17 @@ In addition, we conducted several animal biopsy experiments using the robotic br
 <br/><img src='/images/experiment.png'>
 <center>Proposed bronchoscopy system. (A) In-vivo experiment; (B) The	three-stage bronchoscopy tools in pig’s trachea.</center>
 
-Vascular Interventional Surgical Robot
-======
+Related Pubulication: 
+
+Chen, Xing-Yu, et al. Design of a Teleoperated Robotic Bronchoscopy System for Peripheral Pulmonary Lesion Biopsy. [arXiv preprint arXiv:2306.09598(2023)](https://doi.org/10.13140/RG.2.2.24714.64963).
+
+CN Patent: A sheath with continuously adjustable stiffness, its stiffness adjustment method, and surgical equipment. [CN115920200A](https://www.researchgate.net/publication/370801235_CN_Patent_yizhonggangdulianxukediaoqiaoguanjiqigangdudiaojiefangfaheshoushushebei)
+
+CN Patent: Biopsy Forceps Storage and Delivery Device for Bronchoscope Surgical Robots. [CN115429343A](https://www.researchgate.net/publication/370801423_CN_Patent_yizhonghuojianqianshounayudisongzhuangzhiyijizhiqiguanjingshoushujiqiren)
+
+CN Patent: A Respiratory Diagnosis and Treatment Robot System and its Control Method. [PCT/CN115252146](https://www.researchgate.net/publication/370801247_CN_Patent_yizhongjinghuxidaozhenliaojiqirenxitongjiqikongzhifangfa)
+
+CN Patent: A bronchoscope module and its biopsy method. [CN116369834A](https://www.researchgate.net/publication/372234328_CN_Patent_yizhongzhiqiguanjingmozujiqihuojianfangfahecaiyongqideshoushujiqiren)
 
 
 [//]: # (This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. )
