@@ -19,50 +19,39 @@ Related Pubulication:
 
 Chen, Xing-Yu, et al. Design and Evaluation of a Learning-based Vascular Interventional Surgery Robot. [Fibers, 10.12 (2022): 106](https://doi.org/10.3390/fib10120106)
 
-Akinyemi, T.O., et al.   \emph{\href{https://doi.org/10.3390/app122110936}{ Adapting Neural-Based Models for Position Error Compensation in Robotic Catheter Systems.}} \textit {Applied Sciences}, 12.21 (2022): 10936.
+Akinyemi, T.O., et al. Adapting Neural-Based Models for Position Error Compensation in Robotic Catheter Systems. [Applied Sciences, 12.21 (2022): 10936](https://doi.org/10.3390/app122110936)
 
-Akinyemi, T.O., et al.   \emph{\href{https://doi.org/10.1109/JSEN.2023.3281009}{Interventionalist Hand Motion Recognition with Convolutional Neural Network in Robot-assisted Coronary Interventions.}} \textit{IEEE Sensors Journal}.
+Akinyemi, T.O., et al. Interventionalist Hand Motion Recognition with Convolutional Neural Network in Robot-assisted Coronary Interventions. [IEEE Sensors Journal](https://doi.org/10.1109/JSEN.2023.3281009)
 
-Duan, Wenke, et al. \emph{\href{https://doi.org/10.3390/mi14010197}{Technical and Clinical Progress on Robot-Assisted Endovascular Interventions: A Review.}} \textit{Micromachines}, 14.1 (2023): 197.
+Duan, Wenke, et al. Technical and Clinical Progress on Robot-Assisted Endovascular Interventions: A Review. [Micromachines. 14.1 (2023): 197](https://doi.org/10.3390/mi14010197)
 
-CN Patent: \emph{\href{https://www.researchgate.net/publication/370801433_CN_Patent_yizhongshoushujiqirendezhuduanliganzhifankuicaozongzhuangzhijifangfa}{A Tactile-Feedback Device and Method for Surgical Robots.}} CN115137483A.
+CN Patent: A Tactile-Feedback Device and Method for Surgical Robots. [CN115137483A](https://www.researchgate.net/publication/370801433_CN_Patent_yizhongshoushujiqirendezhuduanliganzhifankuicaozongzhuangzhijifangfa)
 
-
-CN Patent: \emph{\href{https://www.researchgate.net/publication/370801270_CN_Patent_yizhongshuangxiangdianchushijierujiqirencongduandaosilijiancezhuangzhijifangfa}{ A Bidirectional Guidewire Force Measurement Method for Vascular Interventional Surgical Robot.}} CN114948258A.
-
+CN Patent: A Bidirectional Guidewire Force Measurement Method for Vascular Interventional Surgical Robot. [CN114948258A](https://www.researchgate.net/publication/370801270_CN_Patent_yizhongshuangxiangdianchushijierujiqirencongduandaosilijiancezhuangzhijifangfa)
 
 
+I have designed an isomorphic master-salve Vascular Interventional Surgical Robot (VISR) for precise force measurement and navigation of endovascular tools viz. catheters and guidewires, as shown in Fig.\ref{VISR}-\ref{architecture1}. The master console aids operators in issuing manipulation commands and logs feedback from the force, rotation, and translation data. The slave manipulator uses the commands received from the master platform for actual tool navigation. Some force sensors are mounted at clamping device of the robot manipulator, so I utilized an Artificial Neural Network (ANN) for guidewire resistance force modulation with 50 mN precision. The developed ANN is a multilayer perceptron with five hidden layers and 77 neurons. The network is used to estimate distal force of guidewire from the force measured from force sensor in robot manipulator. 
+
+As shown in Fig.\ref{forcebox}, the robotic system includes a force box used for measuring the
+tactile force that interventionalists exerted with their fingers. This force is regarded as the
+interventionalists’ operative force on the guidewire or catheter in regular surgery. The force box includes a 32-prism, tiny flexible strip sensors, PCBs, and batteries. A flexible
+sensor is folded and wound around the force box surface, and its data is logged as a
+32-channel data multiplexed over an Analog Multiplexer (Texas Instruments). Thus, the interventionalists also operate the master device by manipulating the
+flexible sensor with their finger. The force data is processed in a microcontroller STM32
+ and transmitted over a Bluetooth module to the slave console in real time. The force box also reflects
+information about the flexible tool’s firmness as it is held with a clamping mechanism in
+the slave manipulator. The guidewire is clamped tightly when the surgeon presses hard on
+the force box and vice versa.
+
+To study the usage of robotic-assisted vascular interventions by surgeons and aid them in acquiring 
+skills more efficiently, I designed a smart glove shown in Fig.\ref{glove}. This glove is capable of capturing and fusing information from multiple modalities, including the bending of the surgeon's fingers, the forces exerted while manipulating the vascular surgical robot, electromyographic (EMG) signals, posture angles and accelerations (IMU), as well as spatial position and orientation collected using electromagnetic sensors.
+
+In addition, I utilized fuzzy PID and recurrent neural network (RNN) models such as the Long Short-Term Memory networks (LSTM) and Gated Recurrent Unit (GRU) networks to learn typical motion dynamics when running the master-slave platform. The trained network could estimate the position of the slave robot based on input motion factors. The estimated value and an appropriate compensatory value are then transferred to the slave robotic device in order to map the master platform's movements uniformly.     
+The RNN models were implemented in Python and using the Keras library and the TensorFlow framework. The LSTM model contains an input layer (N$\times$3$\times$3), two hidden layer with 32 units each, and a fully connected layer that outputs a predicted value using the rectified linear unit (ReLU) activation function. The LSTM unit may extract essential features from an input sequence and store them in memory. To train the model, experimental data for various step values was stacked together, and feature scaling was applied to the data. 
+
+Fig.\ref{LSTM_GRU} depicts the in-silico evaluations of the GRU and LSTM-based controllers. Although the original error increased to 40\%(2.0mm) of the input command for several phases, the minimum and greatest final errors were 0.001 mm and 0.1mm (2\% of the input command) across the steps. It depicts how the GRU-based controller may estimate the predicted slave robot response ahead of time and then use this to regress the initial position error. To validate the real-time usability of the learning-based models in the VISR, we utilized the Jetson AGX Orin development kit (NVIDIA, CA, USA) for the patient-side robot, and evaluated the model's performance under uniform and varying input commands using the control block diagram presented in Fig.\ref{control_block}. For a typical master's displacement, velocity, and the velocity ratio, the RNN model makes an appropriate prediction and checks for errors.  
 
 
-
-
-
-
-I am currently tasked with designing an innovative teleoperated robotic bronchoscopy system and multi-modal navigation through image and electromagnetic sensors. During the procedure, the surgeon holds a tablet console to control a flexible visual bronchoscope, inserts a flexible tube into the patient's mouth, and utilizes the robot for advancements, rotations, and adjustment of the bending angle of the front end of the flexible bronchoscope. The robot also enables control of the biopsy forceps for feeding and tissue sampling. 
-<br/><img src='/images/R_B_System.png'>
-<center>Robotic Bronchoscopy System. (A) Robot and bronchus phantom; (B) Biopsy forceps manipulator; (C) Bronchoscopic video. (D) EM-Sensor based navigation system; (E) Embedded control system, electrical devices and motors; (F) Biopsy forceps and Catheters delivery device.</center>
-
-The system consists of a teleoperated surgical robot designed for trans-respiratory diagnosis, along with a corresponding master-slave control system. It incorporates various components, including a flexible bronchoscope, bronchial biopsy instruments, variable stiffness catheters, a magnetic navigation device, and several tablets functioning as master consoles. The surgeon operates the tablet, and the instructions are wirelessly transmitted to the embedded system controller through the TCP/IP protocol suite. Subsequently, the robot manipulates the flexible bronchoscope in response to the issued commands. Employing a multi-operator strategy, the robot is controlled through scheduling arrangement and weight distribution, which enables mentor surgeons and trainee surgeons operate surgery simultaneously. They can observe the same surgical site and share control of robotically controlled surgical instruments. This allows trainees to gain firsthand experience of the procedure while being guided by the mentor surgeon. Additionally, the mentor surgeon can switch control to selected trainees if necessary and override their control during the bronchoscopy procedure. I developed the electrical system of the entire surgical robot, and used pyqt to design the UI interface of the system, as shown in Fig.\ref{three_tools}. We have also developed a novel Variable Stiffness Catheter (VS-Catheter) composed of Low Melting Point Alloy (LMPA) to enhance the catheter's flexibility in the context of minimally invasive surgery and expand the accessible area for bronchoscopic biopsy forceps. Compared with bronchoscope, the VS-Catheter can be inserted into narrower bronchi and offers more flexible control with dynamic stiffness.  
-<br/><img src='/images/structure.png'>
-<center>Structure of the bronchoscope robot.</center>
-
-Additionally, to integrate endoscopic video and EM tracking information, I am employing a multimodal navigation system, utilizing the open-source software 3D Slicer, shown in Fig.\ref{3dsclicer}. It offers a range of tools for importing, processing, visualizing, and analyzing medical image data. It also provides capabilities for image registration, segmentation, and fusion. Furthermore, it includes a toolbox of navigation features, image-processing algorithms, and connections to external hardware for image-guided therapy (IGT). By combining images, tracked surgical instruments, and computer display, a comprehensive navigation system is created, enabling real-time identification of the direction and position of the bronchoscope tip and reference.
-
-<br/><img src='/images/architecture.png'>
-<center>Proposed three-stage bronchoscopy surgical procedures, with initial insertion, dynamic adjustment, and tissue sampling.</center>
-<br/><img src='/images/the_three.png'>
-<center>(A) Proposed robotic bronchoscopy system. (B) UI developed with PyQt. (C) Novel three-stage bronchoscopy surgical procedure composed of robotic bronchoscope, VS-Catheter, and tissue sampling by biopsy forceps. (D) The three-stage bronchoscopy surgical tools.</center>
-
-Fig.\ref{Procedure} showed the surgery procedure of robot-assisted bronchoscopy. Registration involves creating a 3D map of the patient's airways, integrated through CT or MRI to provide visual map of the surgical workspace. This map is used to guide the robotic system during the procedure. Once the registration is complete, the physician will use the 3D map to plan the bronchoscopy procedure. This may involve identifying the location of suspicious areas, such as tumors or lesions, and planning the best route to reach them. After the robotic system is set up on a passive arm and calibrated, the physician remotely controls the robotic system to examine the patient's airways with virtual bronchial navigation or EM guidance  navigation system, looks for any abnormalities or suspicious areas, and performs a biopsy or other procedure to obtain a tissue sample for further testing.
-<br/><img src='/images/navigation_procedure.png'>
-<center>Robotic assisted bronchoscopy procedure.</center>
-
-In addition, we conducted several animal biopsy experiments using the robotic bronchoscopy system, as depicted in Fig.\ref{animal}. The system was controlled by two operators using tablets with different priorities and EM sensors were attached to the pig's forebreast and the tip of the bronchoscope. We successfully performed a biopsy procedure in which small tissue was clamped and removed from the tertiary bronchus of a pig. The implementation of the VS-Catheter enabled more flexible control of the biopsy forceps within the bronchus. The stiffness of the catheter was adjusted by energizing the resistance wire, providing adaptability based on the specific requirements of the procedure. The usability and effectiveness of the designed bronchoscopy surgical robot were demonstrated. Our work has been submitted to the 2023 IEEE BioCAS conference for publication.
-<br/><img src='/images/experiment.png'>
-<center>Proposed bronchoscopy system. (A) In-vivo experiment; (B) The	three-stage bronchoscopy tools in pig’s trachea.</center>
-
-Vascular Interventional Surgical Robot
-======
 
 
 [//]: # (This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. )
