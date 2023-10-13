@@ -4,17 +4,6 @@ excerpt: "Short description of portfolio item number 3<br/><img src='/images/str
 collection: portfolio   
 ---
 
-
-Continuum robot has evolved as a novel treatment modality with better features over the traditional minimally invasive surgery, such as faster, safer, and more convenient intra-body interventions without wide incisions. They are designed to navigate
-anatomical pathways through single-port access, e.g. natural orifice transluminal endoscopic surgery or minimal incisions. Continuum surgical robots have a fundamentally different structure than
-conventional manipulators composed of discrete rigid links connected by joints. Their
-ability to take the shape of 3D curves enables these robots to perform procedures
-through smaller surgical corridors than would be possible with traditional robotic
-mechanisms. During the work in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, I lead a small group of students and design two continuum robot, a vascular interventional surgical robot and a robotic bronchoscopy system.
-
-
-Vascular Interventional Surgical Robot
-======
 Related Pubulication: 
 
 Chen, Xing-Yu, et al. Design and Evaluation of a Learning-based Vascular Interventional Surgery Robot. [Fibers, 10.12 (2022): 106](https://doi.org/10.3390/fib10120106)
