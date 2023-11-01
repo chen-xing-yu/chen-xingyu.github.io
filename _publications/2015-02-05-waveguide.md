@@ -1,7 +1,7 @@
 ---
 title: "High-efficiency transition between rectangular waveguide and domino plasmonic waveguide"
 collection: publications
-permalink: /publication/2015-02-05-paper-title-number-1
+permalink: /publication/2015-02-05-waveguide
 excerpt: 'An optimized transition structure to realize smooth and high efficiency conversion from the guided wave supported by a conventional rectangular waveguide (CRW) to the domino plasmon polaritons (DPPs) supported by a domino plasmonic waveguide (DPW).'
 date: 2015-02-05
 venue: 'AIP Advances'
