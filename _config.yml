@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "main page"
+title                    : "Main Page"
 title_separator          : "-"
 name                     : &name "Xing-Yu Chen"
 description              : &description "personal description"
