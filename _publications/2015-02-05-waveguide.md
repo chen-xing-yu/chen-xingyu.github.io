@@ -13,5 +13,5 @@ In this work, we propose an optimized transition structure to realize smooth and
 
 
 
-[Original paper here](https://pubs.aip.org/aip/adv/article/5/2/027105/21158)
+[Download original paper](https://pubs.aip.org/aip/adv/article/5/2/027105/21158)
 
